@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: microservice-eureka-ha
+  profiles:
+    active: peer1
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: 123456
